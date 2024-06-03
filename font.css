@@ -1,0 +1,17 @@
+@font-face{
+    font-family: OreoSans;
+    src: url(./fonts/OreoSansBold.woff2);
+    font-display: swap;
+}
+
+@font-face{
+    font-family: KFOlCnq;
+    src: url(./fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
+    font-display: swap;
+}
+
+@font-face{
+    font-family: Pluto;
+    src: url(./fonts/plutoregular-webfont-woff2-3a9be166aaafb0536074fa4416ed3ede.woff2);
+    font-display:swap;
+}

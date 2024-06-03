@@ -1,0 +1,398 @@
+@import url("./font.css");
+
+*{
+  margin:0px;
+}
+
+/*..............................Header CSS.....................................................*/
+
+.header {
+  min-width:1200px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  background-color:  #212529;
+  padding: 0 10px;
+  box-sizing: border-box;
+  position:fixed;
+  top:0;
+}
+
+
+
+
+main{
+max-width: 1440px;
+width: 1200px;
+margin: 0 auto;
+}
+
+.nav-container{
+width:80%;
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; 
+  padding: 20px 0px;
+  column-gap: 20px;
+}
+
+.name {
+  width:20%;
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  color: white;
+  list-style: none;
+  font-family: OreoSans, "Sans-serif";
+}
+
+.name:hover{
+  color:grey;
+}
+
+.menu {
+  line-height: 20px;
+  font-size: 1rem;
+  list-style: none;
+  list-style: 2px;
+  font-family: Pluto, "Sans-serif";
+}
+
+.menu > a{
+  text-decoration: none;
+  color: #909090;
+}
+
+.menu:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffd500;
+}
+
+.download {
+  font-size: 1rem;
+  min-width:200px;
+  max-width:100px;
+  color: #010101;
+  background-color: #ffd500;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5em;
+}
+
+.download:hover{
+  background-color: black;
+  color:white;
+}
+
+/*.....................................Profile Section...............................................................*/
+
+.profile-section{
+  width:80%;
+  display:flex;
+  justify-content: center;
+  margin:100px auto;
+}
+
+.profile-image{
+  width:40%;
+  border-radius: 50%;
+}
+
+.btns-container{
+  width:60%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.image-button{
+  font-size: 1rem;
+  padding:10px 20px;
+  max-width: 300px;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom:20px;
+}
+
+#name-btn{
+  background-color: black;
+  color:white;
+}
+
+#email-btn{
+  background-color:#ffd500;
+  color:black;
+}
+
+/*..................................Experience Section................................................................*/
+
+.experience-section{
+width:80%;
+display:flex;
+margin: 100px 50px;
+}
+
+.experience{
+  width:60%;
+}
+
+.experience > h1{
+  font-size: 2rem;
+  font-family: OreoSans, "Sans-serif";
+  margin: 20px 0;
+}
+
+.experience > p{
+  font-size: 1rem;
+  line-height:1.5rem;
+  font-family: "Sans-serif";
+  margin:20px 0;
+}
+
+.song-img{
+  width:40%;
+}
+
+.song-img > img{
+  width:500px;
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px;
+}
+
+/*......................................BioData...........................................................*/
+
+.bio-data{
+  display:flex;
+  justify-content:flex-start;
+}
+
+.keys{
+  padding-left:0px;
+}
+
+.keys > li{
+  list-style: none;
+  line-height:1.5rem;
+}
+
+.values > li{
+  list-style: none;
+  line-height:1.5rem;
+  color:#909090;
+  font-weight: 600;
+}
+
+
+/*.................................Skills Section................................................................*/
+
+
+.skills{
+  display:flex;
+  justify-content: center;
+  margin: 20px 50px;
+  column-gap: 30px;
+}
+
+.skills-container > h3{
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 10px 0;
+}
+
+.skills-container > p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+
+/*......................................Accordion.......................................................*/
+
+
+.questions {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.questions > h2 {
+  font-size: 2.5rem;
+  margin:30px 0;
+  font-weight: 500;
+}
+
+.accordion {
+  border: 2px solid black;
+  background-color: silver;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.accordion:active {
+  .answers {
+    display: block;
+    background-color: white;
+  }
+}
+
+.answers {
+  display: none;
+  text-align: center;
+  color:grey;
+  font-size:1.5rem;
+}
+
+
+/*.................................People Container...................................................*/
+
+.people-container{
+  width:90%;
+  margin:100px auto;
+}
+
+.people-container > h2{
+  font-size: 2.5rem;
+  margin:30px 0;
+  font-weight: 500;
+  text-align: center;
+}
+
+.accordion-container{
+  display: flex;
+  column-gap:10px;
+}
+
+.img-text{
+display: flex;
+column-gap: 20px;
+}
+
+.img-text > img{
+ 
+height:60px;
+width:60px;
+border-radius: 50%;
+}
+
+.designation{
+width:80%;
+}
+
+.designation > p{
+color: grey;
+margin-bottom:20px;
+}
+
+.designation > h4{
+  font-weight: 800;
+}
+
+.designation > h5{
+  font-weight: 600;
+}
+
+
+/*.............................................Footer....................................................*/
+
+footer{
+  width:80%;
+  margin:100px 50px;
+  display:flex;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.form-container{
+  width:60%;
+}
+
+.input-decoration{
+  width:100%;
+  border-style: none;
+  background-color: none;
+  border-color: transparent;
+  margin:20px 0px;
+}
+
+.decoration-textarea{
+  width:100%;
+  background-color: none;
+  border-style:none;
+  border-bottom: 1px solid grey;
+  padding:10px 0;
+  margin:20px 0;
+  max-width:520px;
+  height:80px;
+}
+
+#send-btn{
+  border-radius:50px;
+  width:100%;
+  max-width:150px;
+  background-color:#ffd500;
+  color:black;
+}
+
+.social-media{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 50px;
+  width:40%;
+  padding-top:10px;
+}
+
+.contact{
+  display: flex;
+  flex-direction:column;
+  row-gap: 10px;
+}
+
+.copyright{
+display:flex;
+flex-direction: column;
+row-gap:20px;
+}
+
+.contact > h2{
+margin-bottom: 10px;
+}
+
+.copyright > p{
+  color:grey;
+  margin-bottom: 10px;
+}
+
+.copyright > p > span{
+ color: black;
+ font-weight: 500;
+}
+
+.icons{
+width:60%;
+display:flex;
+column-gap:20px;
+}
+
+.icon-images{
+  width:100%;
+}
+
+.contact > p{
+color:grey;
+}
+
+#mails{
+  color: black;
+}
+
+
