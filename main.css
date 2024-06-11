@@ -5,9 +5,7 @@
 }
 
 /*..............................Header CSS.....................................................*/
-
 .header {
-  min-width:1200px;
   width:100%;
   display: flex;
   align-items: center;
@@ -18,9 +16,6 @@
   position:fixed;
   top:0;
 }
-
-
-
 
 main{
 max-width: 1440px;
@@ -58,10 +53,8 @@ justify-content: space-between;
 }
 
 .menu {
-  line-height: 20px;
   font-size: 1rem;
   list-style: none;
-  list-style: 2px;
   font-family: Pluto, "Sans-serif";
 }
 
@@ -71,8 +64,7 @@ justify-content: space-between;
 }
 
 .menu:hover {
-  text-decoration: underline;
-  text-decoration-color: #ffd500;
+  border-bottom: 2px solid #ffd500;
 }
 
 .download {
@@ -165,8 +157,7 @@ margin: 100px 50px;
 
 .song-img > img{
   width:500px;
-  border-top-left-radius: 20px;
-  border-top-right-radius:20px;
+  border-radius: 20px;
 }
 
 /*......................................BioData...........................................................*/
@@ -231,7 +222,7 @@ margin: 100px 50px;
 
 .accordion {
   border: 2px solid black;
-  background-color: silver;
+  background-color: lightgrey;
   text-align: center;
   width: 100%;
   font-size: 2rem;
@@ -254,9 +245,15 @@ margin: 100px 50px;
 
 /*.................................People Container...................................................*/
 
+.people{
+  width:100%;
+  background-color:lightgrey;
+}
+
 .people-container{
-  width:90%;
+  width:100%;
   margin:100px auto;
+  background-color: lightgrey;
 }
 
 .people-container > h2{
@@ -277,7 +274,6 @@ column-gap: 20px;
 }
 
 .img-text > img{
- 
 height:60px;
 width:60px;
 border-radius: 50%;
@@ -317,7 +313,7 @@ footer{
 
 .input-decoration{
   width:100%;
-  border-style: none;
+  outline: none;
   background-color: none;
   border-color: transparent;
   margin:20px 0px;
@@ -326,7 +322,8 @@ footer{
 .decoration-textarea{
   width:100%;
   background-color: none;
-  border-style:none;
+  outline: none;
+  border-color:transparent;
   border-bottom: 1px solid grey;
   padding:10px 0;
   margin:20px 0;
@@ -395,4 +392,210 @@ color:grey;
   color: black;
 }
 
+.hamburger{
+  display:none
+}
 
+@media(max-width:768px){
+
+  .header{
+    
+    justify-content: space-between;
+  }
+
+  .hamburger{
+    display:block;
+    margin-right:10px;
+    margin-top:10px;
+  }
+
+  .line1, .line2, .line3{
+    width:50px;
+    height:8px;
+    margin-bottom:10px;
+    background-color: white;
+  }
+
+  .name{
+    width:80%;
+    font-size:2.5rem;
+  }
+
+  .nav-container{
+   display:none;
+  }
+
+  main{
+    width: 768px;
+     max-width:768px;
+     margin:0 auto;
+    }
+    .profile-section{
+      width:100%;
+      flex-direction: column;
+      align-items: center;
+      margin:150px auto;
+      margin-bottom:100px;
+    }
+    .profile-image{
+      width:80%;
+      margin:50px auto;
+    }
+    .btns-container{
+      width:80%;
+      margin:0 auto;
+      align-items: center;
+    }
+    .image-button{
+      width:100%;
+      font-size: 1.5rem;
+      padding:10px 20px;
+      max-width:450px;
+      border-radius: 1.5rem;
+    }
+
+    .experience-section{
+      width:100%;
+      margin: 100px auto;
+      flex-direction: column;
+      row-gap:50px;
+      }
+      
+      .experience{
+        width:80%;
+        margin: 0 auto;
+      }
+      
+      .experience > p{
+        font-size: 1.5rem;
+        line-height:2rem;
+      }
+      
+      .song-img{
+        width:80%;
+        margin: 0 auto;
+      }
+      
+      .song-img > img{
+        width:600px;
+      }
+      
+      .bio-data{
+        margin:50px auto;
+        justify-content:center;
+      }
+      
+      .keys > li{
+        font-size: 1.5rem;
+        line-height:2rem;
+      }
+      
+      .values > li{
+       font-size: 1.5rem;
+       line-height:2rem;
+      }
+
+      .skills{
+        flex-direction: column;
+        row-gap:30px;
+      }
+      
+      .skills-container > h3{
+       text-align: center;
+      }
+      
+      .skills-container > p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      
+      .accordion-container{
+        width:80%;
+        margin: 0 auto;
+        flex-direction: column;
+        row-gap:20px;
+      }
+         
+      .img-text > img{
+      width:100px;
+      height:100px;
+      }
+      
+      .designation > p{
+      font-size:1.5rem;
+      line-height:2;
+      }
+      
+      .designation > h4{
+        font-size: 2rem;
+      }
+      
+      .designation > h5{
+        font-size:1.5rem;
+      }
+    
+      footer{
+        width:80%;
+        flex-direction:column;
+        row-gap:50px;
+      }
+      
+      .input-decoration{
+      font-size: 1.5rem;
+      }
+
+      hr{
+        width:500px;
+      }
+      
+      .decoration-textarea{
+        font-size: 1.8rem;
+        width:500px;
+      }
+      
+      #send-btn{
+        border-radius:50px;
+        width:100%;
+        max-width:150px;
+        background-color:#ffd500;
+        color:black;
+      }
+      
+      .social-media{
+        width:100%;
+      }
+      
+      .contact{
+        row-gap: 20px;
+      }
+      
+      .contact > h2{
+        font-size:3rem;
+        }
+
+
+        .contact > p{
+          font-size:2rem;
+          }
+
+          #mails{
+           font-size: 2rem;
+          }
+
+          .icons{
+            width:80%;
+            column-gap:20px;
+            }
+            
+            .icon-images{
+              width:80%;
+            }
+    
+      .copyright > p{
+        font-size:2rem;
+      }
+      
+      .copyright > p > span{
+       font-size: 2rem;
+      } 
+}
