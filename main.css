@@ -1,46 +1,46 @@
 @import url("./font.css");
 
-*{
-  margin:0px;
+* {
+  margin: 0px;
 }
 
 /*..............................Header CSS.....................................................*/
 .header {
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   max-width: 1440px;
-  background-color:  #212529;
+  background-color: #212529;
   padding: 0 10px;
   box-sizing: border-box;
-  position:fixed;
-  top:0;
+  position: fixed;
+  top: 0;
 }
 
-main{
-max-width: 1440px;
-width: 1200px;
-margin: 0 auto;
+main {
+  max-width: 1440px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.nav-container{
-width:80%;
-display:flex;
-align-items: center;
-justify-content: space-between;
+.nav-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .headings {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   padding: 20px 0px;
   column-gap: 20px;
 }
 
 .name {
-  width:20%;
+  width: 20%;
   padding: 20px 30px;
   font-size: 1.2rem;
   color: white;
@@ -48,8 +48,8 @@ justify-content: space-between;
   font-family: OreoSans, "Sans-serif";
 }
 
-.name:hover{
-  color:grey;
+.name:hover {
+  color: grey;
 }
 
 .menu {
@@ -58,7 +58,7 @@ justify-content: space-between;
   font-family: Pluto, "Sans-serif";
 }
 
-.menu > a{
+.menu > a {
   text-decoration: none;
   color: #909090;
 }
@@ -69,8 +69,8 @@ justify-content: space-between;
 
 .download {
   font-size: 1rem;
-  min-width:200px;
-  max-width:100px;
+  min-width: 200px;
+  max-width: 100px;
   color: #010101;
   background-color: #ffd500;
   cursor: pointer;
@@ -79,135 +79,131 @@ justify-content: space-between;
   padding: 0.5em;
 }
 
-.download:hover{
+.download:hover {
   background-color: black;
-  color:white;
+  color: white;
 }
 
 /*.....................................Profile Section...............................................................*/
 
-.profile-section{
-  width:80%;
-  display:flex;
+.profile-section {
+  width: 80%;
+  display: flex;
   justify-content: center;
-  margin:100px auto;
+  margin: 100px auto;
 }
 
-.profile-image{
-  width:40%;
+.profile-image {
+  width: 40%;
   border-radius: 50%;
 }
 
-.btns-container{
-  width:60%;
+.btns-container {
+  width: 60%;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   margin-left: 30px;
 }
 
-.image-button{
+.image-button {
   font-size: 1rem;
-  padding:10px 20px;
+  padding: 10px 20px;
   max-width: 300px;
   cursor: pointer;
   border: none;
   border-radius: 1rem;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
-#name-btn{
+#name-btn {
   background-color: black;
-  color:white;
+  color: white;
 }
 
-#email-btn{
-  background-color:#ffd500;
-  color:black;
+#email-btn {
+  background-color: #ffd500;
+  color: black;
 }
 
 /*..................................Experience Section................................................................*/
 
-.experience-section{
-width:80%;
-display:flex;
-margin: 100px 50px;
+.experience-section {
+  width: 80%;
+  display: flex;
+  margin: 100px 50px;
 }
 
-.experience{
-  width:60%;
+.experience {
+  width: 60%;
 }
 
-.experience > h1{
+.experience > h1 {
   font-size: 2rem;
   font-family: OreoSans, "Sans-serif";
   margin: 20px 0;
 }
 
-.experience > p{
+.experience > p {
   font-size: 1rem;
-  line-height:1.5rem;
+  line-height: 1.5rem;
   font-family: "Sans-serif";
-  margin:20px 0;
+  margin: 20px 0;
 }
 
-.song-img{
-  width:40%;
+.song-img {
+  width: 40%;
 }
 
-.song-img > img{
-  width:500px;
+.song-img > img {
+  width: 500px;
   border-radius: 20px;
 }
 
 /*......................................BioData...........................................................*/
 
-.bio-data{
-  display:flex;
-  justify-content:flex-start;
+.bio-data {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.keys{
-  padding-left:0px;
+.keys {
+  padding-left: 0px;
 }
 
-.keys > li{
+.keys > li {
   list-style: none;
-  line-height:1.5rem;
+  line-height: 1.5rem;
 }
 
-.values > li{
+.values > li {
   list-style: none;
-  line-height:1.5rem;
-  color:#909090;
+  line-height: 1.5rem;
+  color: #909090;
   font-weight: 600;
 }
 
-
 /*.................................Skills Section................................................................*/
 
-
-.skills{
-  display:flex;
+.skills {
+  display: flex;
   justify-content: center;
   margin: 20px 50px;
   column-gap: 30px;
 }
 
-.skills-container > h3{
+.skills-container > h3 {
   font-size: 2rem;
   font-weight: lighter;
   margin: 10px 0;
 }
 
-.skills-container > p{
+.skills-container > p {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-
 /*......................................Accordion.......................................................*/
-
 
 .questions {
   width: 80%;
@@ -216,7 +212,7 @@ margin: 100px 50px;
 
 .questions > h2 {
   font-size: 2.5rem;
-  margin:30px 0;
+  margin: 30px 0;
   font-weight: 500;
 }
 
@@ -238,364 +234,408 @@ margin: 100px 50px;
 .answers {
   display: none;
   text-align: center;
-  color:grey;
-  font-size:1.5rem;
+  color: grey;
+  font-size: 1.5rem;
 }
-
 
 /*.................................People Container...................................................*/
 
-.people{
-  width:100%;
-  background-color:lightgrey;
-}
-
-.people-container{
-  width:100%;
-  margin:100px auto;
+.people {
+  width: 100%;
   background-color: lightgrey;
 }
 
-.people-container > h2{
+.people-container {
+  width: 100%;
+  margin: 100px auto;
+  background-color: lightgrey;
+}
+
+.people-container > h2 {
   font-size: 2.5rem;
-  margin:30px 0;
+  margin: 30px 0;
   font-weight: 500;
   text-align: center;
 }
 
-.accordion-container{
+.accordion-container {
   display: flex;
-  column-gap:10px;
+  column-gap: 10px;
 }
 
-.img-text{
-display: flex;
-column-gap: 20px;
+.img-text {
+  display: flex;
+  column-gap: 20px;
 }
 
-.img-text > img{
-height:60px;
-width:60px;
-border-radius: 50%;
+.img-text > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 
-.designation{
-width:80%;
+.designation {
+  width: 80%;
 }
 
-.designation > p{
-color: grey;
-margin-bottom:20px;
+.designation > p {
+  color: grey;
+  margin-bottom: 20px;
 }
 
-.designation > h4{
+.designation > h4 {
   font-weight: 800;
 }
 
-.designation > h5{
+.designation > h5 {
   font-weight: 600;
 }
 
-
 /*.............................................Footer....................................................*/
 
-footer{
-  width:80%;
-  margin:100px 50px;
-  display:flex;
+footer {
+  width: 80%;
+  margin: 100px 50px;
+  display: flex;
   justify-content: space-between;
   column-gap: 100px;
 }
 
-.form-container{
-  width:60%;
+.form-container {
+  width: 60%;
 }
 
-.input-decoration{
-  width:100%;
+.input-decoration {
+  width: 100%;
   outline: none;
   background-color: none;
   border-color: transparent;
-  margin:20px 0px;
+  margin: 20px 0px;
 }
 
-.decoration-textarea{
-  width:100%;
+.decoration-textarea {
+  width: 100%;
   background-color: none;
   outline: none;
-  border-color:transparent;
+  border-color: transparent;
   border-bottom: 1px solid grey;
-  padding:10px 0;
-  margin:20px 0;
-  max-width:520px;
-  height:80px;
+  padding: 10px 0;
+  margin: 20px 0;
+  max-width: 520px;
+  height: 80px;
 }
 
-#send-btn{
-  border-radius:50px;
-  width:100%;
-  max-width:150px;
-  background-color:#ffd500;
-  color:black;
-}
-
-.social-media{
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  row-gap: 50px;
-  width:40%;
-  padding-top:10px;
-}
-
-.contact{
-  display: flex;
-  flex-direction:column;
-  row-gap: 10px;
-}
-
-.copyright{
-display:flex;
-flex-direction: column;
-row-gap:20px;
-}
-
-.contact > h2{
-margin-bottom: 10px;
-}
-
-.copyright > p{
-  color:grey;
-  margin-bottom: 10px;
-}
-
-.copyright > p > span{
- color: black;
- font-weight: 500;
-}
-
-.icons{
-width:60%;
-display:flex;
-column-gap:20px;
-}
-
-.icon-images{
-  width:100%;
-}
-
-.contact > p{
-color:grey;
-}
-
-#mails{
+#send-btn {
+  border-radius: 50px;
+  width: 100%;
+  max-width: 150px;
+  background-color: #ffd500;
   color: black;
 }
 
-.hamburger{
-  display:none
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 50px;
+  width: 40%;
+  padding-top: 10px;
 }
 
-@media(max-width:768px){
+.contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
 
-  .header{
-    
+.copyright {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.contact > h2 {
+  margin-bottom: 10px;
+}
+
+.copyright > p {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.copyright > p > span {
+  color: black;
+  font-weight: 500;
+}
+
+.icons {
+  width: 60%;
+  display: flex;
+  column-gap: 20px;
+}
+
+.icon-images {
+  width: 100%;
+}
+
+.contact > p {
+  color: grey;
+}
+
+#mails {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+/*.................................Media...........................................................*/
+@media (max-width: 768px) {
+  .header {
     justify-content: space-between;
   }
 
-  .hamburger{
-    display:block;
-    margin-right:10px;
-    margin-top:10px;
+  .hamburger {
+    display: block;
+    margin-right: 5%;
+    margin-top: 10px;
   }
 
-  .line1, .line2, .line3{
-    width:50px;
-    height:8px;
-    margin-bottom:10px;
+  .line1,
+  .line2,
+  .line3 {
+    width: 50px;
+    height: 8px;
+    margin-bottom: 10px;
     background-color: white;
   }
 
-  .name{
-    width:80%;
-    font-size:2.5rem;
+  .close {
+    display: block;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+  .close > .line1 {
+    transform: rotate(45deg);
+    margin-bottom: 0px;
   }
 
-  .nav-container{
-   display:none;
+  .close > .line2 {
+    visibility: hidden;
+    margin-bottom: 0px;
   }
 
-  main{
-    width: 768px;
-     max-width:768px;
-     margin:0 auto;
-    }
-    .profile-section{
-      width:100%;
-      flex-direction: column;
-      align-items: center;
-      margin:150px auto;
-      margin-bottom:100px;
-    }
-    .profile-image{
-      width:80%;
-      margin:50px auto;
-    }
-    .btns-container{
-      width:80%;
+  .close > .line3 {
+    transform: translateY(-14px) rotate(-45deg);
+    margin-bottom: 0px;
+  }
+
+  .name {
+    width: 80%;
+    font-size: 2.5rem;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+.mobile-container {
+  display:none;
+  margin:0px;
+}
+
+  .mobile-container .headings {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  } 
+
+   .menu-btn{
+      font-size:40px;
+      width:30%;
       margin:0 auto;
-      align-items: center;
-    }
-    .image-button{
-      width:100%;
-      font-size: 1.5rem;
-      padding:10px 20px;
-      max-width:450px;
-      border-radius: 1.5rem;
-    }
+      margin-bottom:50px;
+  }
 
-    .experience-section{
-      width:100%;
-      margin: 100px auto;
-      flex-direction: column;
-      row-gap:50px;
-      }
-      
-      .experience{
-        width:80%;
-        margin: 0 auto;
-      }
-      
-      .experience > p{
-        font-size: 1.5rem;
-        line-height:2rem;
-      }
-      
-      .song-img{
-        width:80%;
-        margin: 0 auto;
-      }
-      
-      .song-img > img{
-        width:600px;
-      }
-      
-      .bio-data{
-        margin:50px auto;
-        justify-content:center;
-      }
-      
-      .keys > li{
-        font-size: 1.5rem;
-        line-height:2rem;
-      }
-      
-      .values > li{
-       font-size: 1.5rem;
-       line-height:2rem;
-      }
-
-      .skills{
-        flex-direction: column;
-        row-gap:30px;
-      }
-      
-      .skills-container > h3{
-       text-align: center;
-      }
-      
-      .skills-container > p{
-        font-size: 1.5rem;
-        line-height: 2rem;
-      }
-      
-      .accordion-container{
-        width:80%;
-        margin: 0 auto;
-        flex-direction: column;
-        row-gap:20px;
-      }
-         
-      .img-text > img{
-      width:100px;
-      height:100px;
-      }
-      
-      .designation > p{
-      font-size:1.5rem;
-      line-height:2;
-      }
-      
-      .designation > h4{
-        font-size: 2rem;
-      }
-      
-      .designation > h5{
-        font-size:1.5rem;
-      }
-    
-      footer{
-        width:80%;
-        flex-direction:column;
-        row-gap:50px;
-      }
-      
-      .input-decoration{
-      font-size: 1.5rem;
-      }
-
-      hr{
-        width:500px;
-      }
-      
-      .decoration-textarea{
-        font-size: 1.8rem;
-        width:500px;
-      }
-      
-      #send-btn{
-        border-radius:50px;
-        width:100%;
-        max-width:150px;
-        background-color:#ffd500;
-        color:black;
-      }
-      
-      .social-media{
-        width:100%;
-      }
-      
-      .contact{
-        row-gap: 20px;
-      }
-      
-      .contact > h2{
-        font-size:3rem;
-        }
+  .menu{
+font-size:30px;
+  }
 
 
-        .contact > p{
-          font-size:2rem;
-          }
+  main {
+    width: 768px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .profile-section {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto;
+    margin-bottom: 100px;
+  }
+  .profile-image {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .btns-container {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .image-button {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    max-width: 450px;
+    border-radius: 1.5rem;
+  }
 
-          #mails{
-           font-size: 2rem;
-          }
+  .experience-section {
+    width: 100%;
+    margin: 100px auto;
+    flex-direction: column;
+    row-gap: 50px;
+  }
 
-          .icons{
-            width:80%;
-            column-gap:20px;
-            }
-            
-            .icon-images{
-              width:80%;
-            }
-    
-      .copyright > p{
-        font-size:2rem;
-      }
-      
-      .copyright > p > span{
-       font-size: 2rem;
-      } 
+  .experience {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .experience > p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .song-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .song-img > img {
+    width: 600px;
+  }
+
+  .bio-data {
+    margin: 50px auto;
+    justify-content: center;
+  }
+
+  .keys > li {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .values > li {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .skills {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .skills-container > h3 {
+    text-align: center;
+  }
+
+  .skills-container > p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .accordion-container {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .img-text > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .designation > p {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+
+  .designation > h4 {
+    font-size: 2rem;
+  }
+
+  .designation > h5 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    width: 80%;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .input-decoration {
+    font-size: 1.5rem;
+  }
+
+  hr {
+    width: 500px;
+  }
+
+  .decoration-textarea {
+    font-size: 1.8rem;
+    width: 500px;
+  }
+
+  #send-btn {
+    border-radius: 50px;
+    width: 100%;
+    max-width: 150px;
+    background-color: #ffd500;
+    color: black;
+  }
+
+  .social-media {
+    width: 100%;
+  }
+
+  .contact {
+    row-gap: 20px;
+  }
+
+  .contact > h2 {
+    font-size: 3rem;
+  }
+
+  .contact > p {
+    font-size: 2rem;
+  }
+
+  #mails {
+    font-size: 2rem;
+  }
+
+  .icons {
+    width: 80%;
+    column-gap: 20px;
+  }
+
+  .icon-images {
+    width: 80%;
+  }
+
+  .copyright > p {
+    font-size: 2rem;
+  }
+
+  .copyright > p > span {
+    font-size: 2rem;
+  }
 }
